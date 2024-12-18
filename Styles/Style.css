@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#parallex {
+    height: 400px;
+    background-image: url(../Img/Parallex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-box {
+    flex: 1;
+    text-align: center;
+}
+
+.service-box img {
+    display: block;
+    margin: 0 auto;
+}
